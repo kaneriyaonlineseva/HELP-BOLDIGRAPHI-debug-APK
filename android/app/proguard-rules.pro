@@ -1,0 +1,3 @@
+-keepattributes *Annotation*
+-keepclassmembers class kotlinx.serialization.json.** { *; }
+-keepclassmembers class com.helpboldigraphi.app.domain.model.** { *; }

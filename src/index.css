@@ -1,0 +1,121 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --bg-canvas: #F6F5FA;
+  --surface-low: #EEEAF8;
+  --surface-card: #FFFFFF;
+  --surface-elevated: #F3F0FA;
+  --border-subtle: #DFDAE8;
+  --border-focus: #7C3AED;
+  --accent-violet: #6D28D9;
+  --accent-violet-bright: #7C3AED;
+  --accent-gold: #D97706;
+  --accent-gold-bright: #F59E0B;
+  --text-primary: #13131A;
+  --text-secondary: #524E63;
+  --text-muted: #7C7791;
+}
+
+.dark {
+  --bg-canvas: #0B0B12;
+  --surface-low: #12111E;
+  --surface-card: #141424;
+  --surface-elevated: #1C1B2E;
+  --border-subtle: #2A2640;
+  --border-focus: #8B5CF6;
+  --accent-violet: #8B5CF6;
+  --accent-violet-bright: #7C3AED;
+  --accent-gold: #F59E0B;
+  --accent-gold-bright: #FBBF24;
+  --text-primary: #F8FAFC;
+  --text-secondary: #94A3B8;
+  --text-muted: #64748B;
+}
+
+html,
+body {
+  background-color: var(--bg-canvas);
+  color: var(--text-primary);
+  font-family: "Inter", "Noto Sans Devanagari", system-ui, sans-serif;
+  transition: background-color 180ms ease, color 180ms ease;
+}
+
+.font-syne {
+  font-family: "Syne", "Noto Sans Devanagari", sans-serif;
+}
+
+.font-inter {
+  font-family: "Inter", "Noto Sans Devanagari", sans-serif;
+}
+
+.font-grotesk {
+  font-family: "Space Grotesk", "Noto Sans Devanagari", sans-serif;
+}
+
+.font-rozha {
+  font-family: "Rozha One", "Noto Sans Devanagari", serif;
+}
+
+.font-mukta {
+  font-family: "Mukta", "Noto Sans Devanagari", sans-serif;
+}
+
+.font-hind {
+  font-family: "Hind", "Noto Sans Devanagari", sans-serif;
+}
+
+.font-poppins-dev {
+  font-family: "Poppins", "Noto Sans Devanagari", sans-serif;
+}
+
+.font-noto-dev {
+  font-family: "Noto Sans Devanagari", sans-serif;
+}
+
+.font-kalam {
+  font-family: "Kalam", "Noto Sans Devanagari", cursive;
+}
+
+.font-tiro {
+  font-family: "Tiro Devanagari Hindi", "Noto Sans Devanagari", serif;
+}
+
+.font-teko {
+  font-family: "Teko", "Noto Sans Devanagari", sans-serif;
+}
+
+.font-khand {
+  font-family: "Khand", "Noto Sans Devanagari", sans-serif;
+}
+
+.devanagari-safe {
+  line-height: 1.65;
+  padding-top: 0.15em;
+  padding-bottom: 0.15em;
+}
+
+.obsidian-halo:focus-within,
+.obsidian-halo-active {
+  box-shadow: 0 0 14px rgba(139, 92, 246, 0.28);
+}
+
+.gold-halo {
+  box-shadow: 0 0 12px rgba(245, 158, 11, 0.25);
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

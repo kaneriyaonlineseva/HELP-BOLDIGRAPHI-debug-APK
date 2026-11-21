@@ -1,0 +1,227 @@
+---
+name: Obsidian Luxury Typographer
+colors:
+  surface: '#13131a'
+  surface-dim: '#13131a'
+  surface-bright: '#393841'
+  surface-container-lowest: '#0e0e15'
+  surface-container-low: '#1b1b22'
+  surface-container: '#1f1f26'
+  surface-container-high: '#2a2931'
+  surface-container-highest: '#34343c'
+  on-surface: '#e4e1ec'
+  on-surface-variant: '#cbc3d7'
+  inverse-surface: '#e4e1ec'
+  inverse-on-surface: '#303038'
+  outline: '#958ea0'
+  outline-variant: '#494454'
+  surface-tint: '#d0bcff'
+  primary: '#d0bcff'
+  on-primary: '#3c0091'
+  primary-container: '#a078ff'
+  on-primary-container: '#340080'
+  inverse-primary: '#6d3bd7'
+  secondary: '#ffb95f'
+  on-secondary: '#472a00'
+  secondary-container: '#ee9800'
+  on-secondary-container: '#5b3800'
+  tertiary: '#d2bbff'
+  on-tertiary: '#3f008e'
+  tertiary-container: '#a476ff'
+  on-tertiary-container: '#36007d'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#e9ddff'
+  primary-fixed-dim: '#d0bcff'
+  on-primary-fixed: '#23005c'
+  on-primary-fixed-variant: '#5516be'
+  secondary-fixed: '#ffddb8'
+  secondary-fixed-dim: '#ffb95f'
+  on-secondary-fixed: '#2a1700'
+  on-secondary-fixed-variant: '#653e00'
+  tertiary-fixed: '#eaddff'
+  tertiary-fixed-dim: '#d2bbff'
+  on-tertiary-fixed: '#25005a'
+  on-tertiary-fixed-variant: '#5a00c6'
+  background: '#13131a'
+  on-background: '#e4e1ec'
+  surface-variant: '#34343c'
+typography:
+  display-lg:
+    fontFamily: Syne
+    fontSize: 3rem
+    fontWeight: '800'
+    lineHeight: 3.5rem
+    letterSpacing: -0.03em
+  display-lg-mobile:
+    fontFamily: Syne
+    fontSize: 2.25rem
+    fontWeight: '800'
+    lineHeight: 2.75rem
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Syne
+    fontSize: 2rem
+    fontWeight: '700'
+    lineHeight: 2.5rem
+    letterSpacing: -0.02em
+  headline-lg-mobile:
+    fontFamily: Syne
+    fontSize: 1.625rem
+    fontWeight: '700'
+    lineHeight: 2.125rem
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Syne
+    fontSize: 1.25rem
+    fontWeight: '600'
+    lineHeight: 1.75rem
+  title-md:
+    fontFamily: Inter
+    fontSize: 1.125rem
+    fontWeight: '600'
+    lineHeight: 1.625rem
+  body-lg:
+    fontFamily: Inter
+    fontSize: 1rem
+    fontWeight: '400'
+    lineHeight: 1.625rem
+  body-md:
+    fontFamily: Inter
+    fontSize: 0.875rem
+    fontWeight: '400'
+    lineHeight: 1.375rem
+  label-lg:
+    fontFamily: Space Grotesk
+    fontSize: 0.875rem
+    fontWeight: '600'
+    lineHeight: 1.25rem
+    letterSpacing: 0.04em
+  label-sm:
+    fontFamily: Space Grotesk
+    fontSize: 0.75rem
+    fontWeight: '500'
+    lineHeight: 1rem
+    letterSpacing: 0.05em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-tablet: 1.5rem
+  margin: 1rem
+  margin-tablet: 2rem
+  margin-desktop: 3rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2rem
+---
+
+## Brand & Style
+
+The design system embodies a modern luxury Android studio aesthetic tailored for high-impact typography, decorative script stylization, and cross-lingual expression (Latin and Devanagari). It merges deep obsidian dark modes with vivid neon electric violet and royal gold foil accents.
+
+### Personality & Emotional Response
+- **Opulent Precision:** Evokes the tactile prestige of high-end editorial tools, bespoke metal leaf lettering, and contemporary generative design studios.
+- **Dynamic Empowerment:** Communicates effortless creative transformation, moving from plain raw text into artistic, social-ready typographic statements instantly.
+- **Tactile Fluidity:** Gives every tap, transformation, and copy-action a polished haptic feel through glowing states, smooth surface tiers, and balanced optical weights.
+
+### Design Movement
+**Neo-Luxe Dark Surface Studio:** Characterized by ultra-deep void backdrops, low-reflectance purple-slate surface cards, crisp micro-borders, glowing interactive pills, and luminous gold accents against velvety dark canvases.
+
+## Colors
+
+The color palette centers on high-contrast luminescence over a light-absorbing obsidian base.
+
+### Color Roles & Implementation
+- **Base Canvas (`#0B0B12`):** Pure obsidian slate. Applied across the root activity layout, Android system navigation bar background, and root view scrims.
+- **Elevated Surfaces:**
+  - **Surface Container Low (`#12111E`):** Secondary groupings and inactive bottom app bars.
+  - **Surface Container (`#141424`):** Primary cards, dynamic font preview tiles, and bottom sheets.
+  - **Surface Container High (`#1C1B2E`):** Modals, flyouts, and active input panels.
+- **Structural Outlines (`#2A2640`):** 1px hairpins defining boundaries of elevated cards, chip perimeters, and input boundaries without clutter.
+- **Electric Violet (`#8B5CF6`, `#7C3AED`):** Primary interactive energy. Used for selected tabs, primary floating generation triggers, glowing badge halos, and active cursor indicators.
+- **Royal Gold (`#F59E0B`, `#FBBF24`, `#D97706`):** Luxury accent tier. Reserved for VIP font categories, Devanagari ornamental callouts, copy-success confirmations, and celebratory star ratings.
+- **On-Surface Gradients:** Neutral off-white (`#F8FAFC`) for primary titles, soft lavender-gray (`#94A3B8`) for secondary instructions and metadata, and muted slate (`#64748B`) for placeholder text.
+
+## Typography
+
+The typographic hierarchy accommodates high-fashion Latin branding, functional system microcopy, and rich Devanagari script integration.
+
+### Core System Stack
+- **Headlines & Display:** `Syne` brings high-impact, geometric structural fashion suitable for stylized typographic branding.
+- **Body & Controls:** `Inter` handles operational stability, variable weights, exceptional legibility across small viewport densities, and balanced numerical rendering.
+- **Badges, Actions & Metadata:** `Space Grotesk` introduces a futuristic, monospaced-adjacent technical cadence for tags, status labels, and character counts.
+
+### Multi-Script & Font Engine Rendering Rules
+- **Devanagari Font Matrix:** When generating or displaying Devanagari outputs, render previews using high-contrast traditional serif display faces (such as *Rozha One* for ornamental headers) paired with modern sans equivalents (*Mukta*, *Hind*, and *Poppins*) for balanced matra rendering and conjunct legibility.
+- **Direct Input Mirroring:** Input transform fields must preserve consistent line-height metrics (`1.6` multiplier minimum) across English and Hindi inputs to prevent vertical clipping of vowel signs (matras, anusvara, and virama).
+
+## Layout & Spacing
+
+The layout model optimizes vertical thumb-reach navigation on handheld Android devices while allowing scalable multi-column grid expansions for large screens and foldable devices.
+
+### Grid Architecture
+- **Mobile Handheld (0 - 599dp):** Single-column content stack with persistent top app bar and floating bottom input dock. Layout margin is fixed at `1rem` (16dp) with `1rem` column gutters.
+- **Foldables & Small Tablets (600dp - 839dp):** Dual-pane split canvas. Left pane houses text entry and style controls (span 5 cols); right pane showcases real-time transformed font outputs (span 7 cols). Margins expand to `2rem`.
+- **Large Android Tablets / ChromeOS (840dp+):** 12-column fixed container maximum width (1200dp), flanked by auto-centering safety margins.
+
+### Android System Bar Accommodation
+- **Status Bar:** Layout draws edge-to-edge underneath a transparent status bar using light icons (dark scrim threshold enabled only on legacy fallback).
+- **Navigation Bar (Gesture & 3-Button):** 0dp padding when in gesture mode with 48dp inset buffer for standard button navigation modes. Persistent actions rest above the system navigation safe inset.
+
+## Elevation & Depth
+
+Visual hierarchy uses layered tonal planes and radiant back-illumination instead of conventional drop shadows.
+
+### Depth Hierarchy
+1. **Level 0 (Canvas Base):** Ground layer at `#0B0B12`. Completely flat, non-interactive.
+2. **Level 1 (Output Cards & Containers):** `#141424` bordered with `1px solid #2A2640`. No directional shadow. Depth is produced purely by contrast against the obsidian background.
+3. **Level 2 (Active Text Areas & Floating Bars):** `#1C1B2E` surface with a subtle top edge highlight (`1px solid rgba(139, 92, 246, 0.2)`).
+4. **Level 3 (Modal Sheets & Context Overlays):** `#1A192B` with a diffused ambient glow: `0px 20px 40px -10px rgba(11, 11, 18, 0.95)` and an outer perimeter glow of `0 0 16px rgba(124, 58, 237, 0.15)`.
+
+### Neon Halo & Gold Sheen Rules
+- **Neon Focus State:** When an output card or text input is active, its border shifts from `#2A2640` to a dual-stop purple accent gradient, cast with an outer blur of `0 0 12px rgba(139, 92, 246, 0.35)`.
+- **Luxury Gold Accents:** Premium badges and copy-state triggers receive a soft gold radiant outline: `0 0 10px rgba(245, 158, 11, 0.25)`.
+
+## Shapes
+
+The design system embraces an ultra-modern organic Android contouring philosophy, using prominent curves to soften technical typography interfaces.
+
+### Curvature Scale
+- **Small Utilities (`rounded-md` / 0.5rem):** Internal input icon buttons, dropdown menus, and Devanagari glyph tags.
+- **Primary Cards & Containers (`rounded-2xl` / 1rem):** Font output cards, transform options panels, and filter groupings.
+- **Hero Containers (`rounded-3xl` / 1.5rem):** Master real-time text input card, feature spotlight banners, and modal dialog sheets.
+- **Pill Geometry (9999px / Full Radius):** Status chips, script switcher tabs (English/Hindi), badge counters, and primary action buttons.
+
+## Components
+
+### Buttons & Action Bars
+- **Primary Generator / Conversion Action:** Full-radius pill with an electric violet gradient fill (`linear-gradient(135deg, #8B5CF6 0%, #7C3AED 100%)`), uppercase `Space Grotesk` text, bold weight, and an interactive press scale transition (`scale(0.97)` on active touch).
+- **Secondary / Ghost Actions:** `#141424` background with a `1px solid #2A2640` boundary. On press, transitions to `border-color: #8B5CF6`.
+- **Copy & Share Quick Actions:** Compact paired pill buttons seated directly inside each card footer. Copy action utilizes an instantaneous gold highlight tick animation (`#F59E0B`) upon clipboard confirmation.
+
+### Typography Cards
+- **Structure:** Surface `#141424`, rounded-2xl geometry, padded with `1.25rem`.
+- **Header:** Displays font metadata (e.g., "Gothic Bold", "Rozha Royal", "Mukta Sans") alongside script tag chips.
+- **Preview Area:** Dynamic viewport supporting full multiline text rendering in high-contrast text `#F8FAFC`.
+- **Footer:** Action dock housing instant Copy, WhatsApp direct share, and Favorite star toggles.
+
+### Script & Category Tabs
+- Encased within an obsidian capsule container (`#12111E`).
+- Active segment glides with a smooth physical spring transition, taking on a glowing violet pill fill (`#7C3AED`) with crisp white label text. Inactive tabs render in `#94A3B8`.
+
+### Input Fields & Master Editor
+- Elevated above the canvas in a rounded-3xl container (`#141424`) with an active ambient violet border.
+- Features dynamic placeholder styling ("Type in English or हिंदी..."), character length counter in `Space Grotesk` label-sm, and quick-clear circular button.
+
+### Badges & Chips
+- **Script Indicators:** Micro-pills with `0.25rem` vertical and `0.625rem` horizontal padding. English chips use purple border tones (`rgba(139, 92, 246, 0.4)`); Hindi Devanagari chips use royal gold border tones (`rgba(245, 158, 11, 0.4)`).

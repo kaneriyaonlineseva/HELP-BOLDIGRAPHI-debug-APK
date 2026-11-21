@@ -1,0 +1,6 @@
+{
+  "name": "HELP BOLDIGRAPHI",
+  "description": "Your Text, Your Style! A bilingual Hindi Devanagari and English Unicode stylish text generator, typography studio, and PNG card exporter.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
